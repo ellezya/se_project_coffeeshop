@@ -83,7 +83,32 @@
           </li>
         </ul>
         </section>
-        <section id="book-a-table" class="reservation"></section>
+        <section id="book-a-table" class="reservation"><section id="book-a-table" class="reservation">
+  <h2 class="reservation__title">Book a table</h2>
+  <form class="reservation__form" action="#" method="post" novalidate>
+    <fieldset>
+      <label for="name">Name *</label>
+      <input type="text" id="name" name="name" placeholder="Name Surname" required />
+
+      <label for="guests">Number of guests *</label>
+      <input type="number" id="guests" name="guests" placeholder="1‑8" required min="1" max="8" />
+
+      <label for="datetime">Date &amp; time *</label>
+      <input type="datetime-local" id="datetime" name="datetime" required />
+
+      <label for="email">Your email *</label>
+      <input type="email" id="email" name="email" placeholder="email@email.com" required />
+
+      <label class="reservation__checkbox-label">
+        <input type="checkbox" id="terms" name="terms" required />
+        I agree with the terms of use
+      </label>
+
+      <button type="submit" class="reservation__button">Book a table</button>
+    </fieldset>
+  </form>
+</section>
+</section>
         <section id="menu" class="menu"></section>
         <section class="about"></section>
       </main>
