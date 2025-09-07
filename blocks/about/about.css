@@ -1,0 +1,50 @@
+.about {
+  position: relative;
+  background: #0a2850;
+  color: #fff;
+  padding: 80px 80px 100px;
+  overflow: hidden;
+}
+
+.about__title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0 0 20px;
+}
+
+.about__content {
+  max-width: 660px;
+  position: relative;
+  z-index: 2;
+}
+
+.about__paragraph {
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0 0 20px;
+}
+
+.about__circle,
+.about__circle.about__circle_animation_blurred {
+  position: absolute;
+  width: 426px; height: 426px;
+  left: calc(100% - 173px - 426px); /* 173px from right edge per brief diagram spacing */
+  top: 119px;
+  border-radius: 50%;
+  background: #2f80ed;
+  z-index: 1;
+  opacity: .2;
+}
+
+.about__circle_animation_blurred {
+  opacity: 0;
+  animation: pulsate 1.3s ease-in-out infinite;
+}
+
+@keyframes pulsate {
+  0%   { opacity: 0;   transform: scale(1); }
+  50%  { opacity: 0.6; transform: scale(1.35); }
+  100% { opacity: 0;   transform: scale(1.5); }
+}

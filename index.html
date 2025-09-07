@@ -6,113 +6,175 @@
     <meta name="description" content="Coffee Shop Landing Page" />
     <meta name="author" content="Elle Anderson" />
     <meta name="keywords" content="HTML, CSS" />
-   <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
     <title>Coffee Shop</title>
   </head>
   <body>
     <div class="page">
       <header class="header">
         <nav class="nav">
-          <img
-               src="./images/logo_coffeeshop_dark.svg"
-               alt="Triple Teaks Coffee Shop logo"
-               class="nav__logo"
-               />
-               <ul class="nav__links">
-                <li>
-                  <a class="nav__link" href="#recipes">Recipes</a>
-                </li>
-                 <li>
-                  <a class="nav__link" href="#book-a-table">Book a table</a>
-                </li>
-                 <li>
-                  <a class="nav__link" href="#menu">Menu</a>
-                </li>
-                 <li>
-                  <a class="nav__link" href="#contacts">Contacts</a>
-                </li>
-               </ul>
+          <img src="./images/logo_coffeeshop_dark.svg" alt="Triple Peaks Coffee Shop logo" class="nav__logo" />
+          <ul class="nav__links">
+            <li><a class="nav__link" href="#recipes">Recipes</a></li>
+            <li><a class="nav__link" href="#book-a-table">Book a table</a></li>
+            <li><a class="nav__link" href="#menu">Menu</a></li>
+            <li><a class="nav__link" href="#contacts">Contacts</a></li>
+          </ul>
         </nav>
-      <h1 class="header__title"><span class="header__span-accent">Specialty coffee</span>in the Triple Peaks Library
-    </h1><p class="header__description">Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.</p>
-<img src="./images/inside_coffee_shop.png" alt="Illustration of coffeeshop" class="header__image"/>
-<div class="header__footer"><div><p class="header__paragraph">Hours:</p><p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p><p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
-</div>
-<p class="header__paragraph">200 Success Avenue, The Town of Triple Peaks</p></div>
-</header>
-      <main class="content">
-        <section id="recipes" class="recipes">
-        <h2 class="recipes__title">Recipes</h2>
-        <p class="recipes__subtitle">
-          Check out some recipes we've collected for your home-brewing
-          convience:
+
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty coffee</span>in the Triple Peaks Library
+        </h1>
+        <p class="header__description">
+          Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.
         </p>
-        <ul class="recipes__videos">
-          <li class="recipes__video">
-            <iframe
-            class="recipes__iframe"
-            src="https://www.youtube.com/embed/j6VlT_jUVPc?
-            si=wadM0bQ5lpB9Tghy"
-            title="Aeropress Recipe"
-            allow="accelerometer; autoplay; clipboard-write;
-            encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-           ></iframe>
-           <p class="recipes__video-caption"><span>Aeropress Recipe</span> <span>~5 min</span></p>
-        </li>
-        <li class="recipes__video">
-          <iframe
-            class="recipes__iframe"
-            src="https://www.youtube.com/embed/st571DYYTR8?si=FEqsGKbIlGhjAkrk"
-            title="French Press Recipe"
-            allow="accelerometer; autoplay; clipboard-write;
-            encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen
-            ></iframe>
-            <p class="recipes__video-caption"><span>French Press Recipe</span> <span>~15 min</span></p>
-          </li>
-        </ul>
+        <img src="./images/inside_coffee_shop.png" alt="Illustration of coffeeshop" class="header__image" />
+        <div class="header__footer">
+          <div>
+            <p class="header__paragraph">Hours:</p>
+            <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
+            <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
+          </div>
+          <p class="header__paragraph">200 Success Avenue, The Town of Triple Peaks</p>
+        </div>
+      </header>
+
+      <main class="content">
+        <!-- Recipes (unchanged) -->
+        <section id="recipes" class="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing convience:
+          </p>
+          <ul class="recipes__videos">
+            <li class="recipes__video">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc?si=wadM0bQ5lpB9Tghy"
+                title="Aeropress Recipe"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+              <p class="recipes__video-caption"><span>Aeropress Recipe</span> <span>~5 min</span></p>
+            </li>
+            <li class="recipes__video">
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8?si=FEqsGKbIlGhjAkrk"
+                title="French Press Recipe"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen></iframe>
+              <p class="recipes__video-caption"><span>French Press Recipe</span> <span>~15 min</span></p>
+            </li>
+          </ul>
         </section>
-        <section id="book-a-table" class="reservation"><section id="book-a-table" class="reservation">
-  <h2 class="reservation__title">Book a table</h2>
-  <form class="reservation__form form" action="#" method="post" novalidate>
-    <fieldset>
-      <label for="name">Name *</label>
-      <input type="text" id="name" name="name" placeholder="Name Surname" required />
 
-      <label for="guests">Number of guests *</label>
-      <input type="number" id="guests" name="guests" placeholder="1‑8" required min="1" max="8" />
+        <!-- Reservation (form has two classes) -->
+        <section id="book-a-table" class="reservation">
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form form" action="#" method="post" novalidate>
+            <fieldset>
+              <label for="name">Name *</label>
+              <input type="text" id="name" name="name" placeholder="Name Surname" required />
+              <label for="guests">Number of guests *</label>
+              <input type="number" id="guests" name="guests" placeholder="1-8" required min="1" max="8" />
+              <label for="datetime">Date &amp; time *</label>
+              <input type="datetime-local" id="datetime" name="datetime" required />
+              <label for="email">Your email *</label>
+              <input type="email" id="email" name="email" placeholder="email@email.com" required />
+              <label class="reservation__checkbox-label">
+                <input type="checkbox" id="terms" name="terms" required />
+                I agree with the terms of use
+              </label>
+              <button type="submit" class="reservation__button">Book a table</button>
+            </fieldset>
+          </form>
+        </section>
 
-      <label for="datetime">Date &amp; time *</label>
-      <input type="datetime-local" id="datetime" name="datetime" required />
+        <!-- Menu (Stage-4) -->
+        <section id="menu" class="menu">
+          <h2 class="menu__title">Menu</h2>
+          <p class="menu__subtitle">We brew coffee from locally roasted, Fairtrade certified beans and use biodegradable cups. All teas are $2/cup.</p>
 
-      <label for="email">Your email *</label>
-      <input type="email" id="email" name="email" placeholder="email@email.com" required />
+          <div class="menu__cards">
+            <article class="card">
+              <h3 class="card__title">Filter</h3>
+              <ul class="card__list">
+                <li class="card__list-item">Regular (12 oz) <span class="card__list-divider"></span> $1</li>
+                <li class="card__list-item">Large (16 oz) <span class="card__list-divider"></span> $1.25</li>
+                <li class="card__list-item">XL (20 oz) <span class="card__list-divider"></span> $1.5</li>
+                <li class="card__list-item">Party size (24 oz, decaf) <span class="card__list-divider"></span> $1.75</li>
+                <li class="card__list-item">Iced Coffee (16 oz) <span class="card__list-divider"></span> $1.25</li>
+              </ul>
+            </article>
 
-      <label class="reservation__checkbox-label">
-        <input type="checkbox" id="terms" name="terms" required />
-        I agree with the terms of use
-      </label>
+            <article class="card">
+              <h3 class="card__title">Espresso</h3>
+              <ul class="card__list">
+                <li class="card__list-item">Macchiato <span class="card__list-divider"></span> $2.25</li>
+                <li class="card__list-item">Cortado <span class="card__list-divider"></span> $2.5</li>
+                <li class="card__list-item">Mocha <span class="card__list-divider"></span> $3</li>
+                <li class="card__list-item">Sunrise in the Bay Area (decaf) <span class="card__list-divider"></span> $10</li>
+              </ul>
+            </article>
 
-      <button type="submit" class="reservation__button">Book a table</button>
-    </fieldset>
-  </form>
-</section>
-</section>
-        <section id="menu" class="menu"></section>
-        <section class="about"></section>
+            <article class="card">
+              <h3 class="card__title">Baked Goods</h3>
+              <ul class="card__list">
+                <li class="card__list-item">Almond Croissant <span class="card__list-divider"></span> $2</li>
+                <li class="card__list-item">Banana Bread <span class="card__list-divider"></span> $1.75</li>
+                <li class="card__list-item">Key Lime Pie <span class="card__list-divider"></span> $3</li>
+                <li class="card__list-item">Blue Velvet Cake <span class="card__list-divider"></span> $3.75</li>
+                <li class="card__list-item">Web Cookie <span class="card__list-divider"></span> $2</li>
+                <li class="card__list-item">Fresh Bug’uette <span class="card__list-divider"></span> $0.25</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <!-- About the coffee shop (Stage-4, with animated circle) -->
+        <section class="about">
+          <h2 class="about__title">About the <br />coffee shop</h2>
+
+          <div class="about__content">
+            <p class="about__paragraph">Our coffee shop is located in the Triple Peaks Library. It features 6 tables and free WiFi.</p>
+            <p class="about__paragraph">Our main mission is keeping guests cozy and energized.</p>
+            <p class="about__paragraph">Besides that, we try to reduce our environmental impact — so we don't sell single-use cups. But you can buy one of our reusable cups!</p>
+          </div>
+
+          <div class="about__circle" aria-hidden="true"></div>
+          <div class="about__circle about__circle_animation_blurred" aria-hidden="true"></div>
+        </section>
       </main>
-      <footer id="contacts" class="footer"></footer>
+
+      <!-- Footer (Stage-4) -->
+      <footer id="contacts" class="footer">
+        <div class="footer__content">
+          <img class="footer__logo" src="./images/logo_coffeeshop_dark.svg" alt="Triple Peaks Coffee Shop logo" />
+          <div class="footer__social">
+            <h3 class="footer__social-heading">Social media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                  <span class="footer__social-icon" aria-hidden="true">◆</span> Instagram
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+                  <span class="footer__social-icon" aria-hidden="true">◆</span> Facebook
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2023 Elle Anderson</p>
+      </footer>
     </div>
   </body>
 </html>
