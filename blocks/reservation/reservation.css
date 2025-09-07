@@ -13,12 +13,6 @@
   margin-bottom: 20px;
 }
 
-.form { /* shared form styling per brief */
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .reservation__form {
   background: #d9e7ff;
   max-width: 385px;
