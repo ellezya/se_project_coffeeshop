@@ -1,11 +1,11 @@
 .menu {
-  background: center / cover no-repeat #fff url("../../images/background_menu.svg");
+  background: center / cover no-repeat #fff url("../images/background_menu.svg");
   padding: 100px 80px;
   color: #000;
-  text-align: center;
 }
 
 .menu__title {
+  text-align: center;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
@@ -13,6 +13,7 @@
 }
 
 .menu__subtitle {
+  text-align: center;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;

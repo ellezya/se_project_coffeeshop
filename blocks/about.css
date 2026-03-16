@@ -11,6 +11,8 @@
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 20px;
+  position: relative;
+  z-index: 2;
 }
 
 .about__content {
@@ -26,16 +28,16 @@
   margin: 0 0 20px;
 }
 
-.about__circle,
-.about__circle.about__circle_animation_blurred {
+.about__circle {
   position: absolute;
-  width: 426px; height: 426px;
-  left: calc(100% - 173px - 426px); /* 173px from right edge per brief diagram spacing */
+  width: 426px;
+  height: 426px;
+  right: 173px;
   top: 119px;
   border-radius: 50%;
   background: #2f80ed;
   z-index: 1;
-  opacity: .2;
+  opacity: 0.2;
 }
 
 .about__circle_animation_blurred {

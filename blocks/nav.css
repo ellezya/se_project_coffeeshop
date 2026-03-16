@@ -1,7 +1,6 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .nav__logo {
@@ -25,6 +24,6 @@
 .nav__link {
   color: inherit;
   text-decoration: none;
-  transition: color .2s ease; /* smooth transition */
+  transition: color .2s ease;
 }
 .nav__link:hover { color: #2f80ed; }

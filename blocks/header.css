@@ -1,5 +1,5 @@
 .header {
-  background: center / cover no-repeat #fff url("../../images/background_header.svg");
+  background: center / cover no-repeat #fff url("../images/background_header.svg");
   padding: 30px 80px 40px;
   position: relative;
   height: 800px;
@@ -17,10 +17,11 @@
 }
 
 .header__span-accent {
+  font-weight: 400;
   display: block;
   font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
-  color: #2f80ed; /* brief: accents */
+  color: #3f96f3;
 }
 
 .header__description {
@@ -47,6 +48,7 @@
 }
 
 .header__paragraph {
+  font-weight: 500;
   margin: 0;
-  color: #6f6f6f; /* brief hours/address */
+  color: #6f6f6f;
 }

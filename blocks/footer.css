@@ -33,17 +33,12 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  transition: color .25s ease; /* smooth transition per brief */
+  transition: color .25s ease;
 }
 .footer__social-link:hover { color: #c1c1c1; }
 
-.footer__social-icon {
-  width: 16px; height: 16px;
-  display: inline-block;
-}
-
 .footer__copyright {
-  font-weight: 700; /* bold */
+  font-weight: 700;
   font-size: 16px; line-height: 20px;
   margin: 0;
 }

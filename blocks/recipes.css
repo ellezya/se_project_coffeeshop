@@ -1,6 +1,6 @@
 .recipes {
   color: #fff;
-  background: center / cover no-repeat #0a2750 url("../../images/background_recipes.svg");
+  background: center / cover no-repeat #0a2750 url("../images/background_recipes.svg");
   padding: 100px 80px 215px;
 }
 
@@ -22,7 +22,7 @@
 .recipes__videos {
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 40px;
   list-style: none;
   padding: 0;
   margin: 0;
