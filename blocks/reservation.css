@@ -1,6 +1,6 @@
 .reservation {
   background: #d9e7ff center / cover no-repeat url("../images/background_reservation.svg");
-  padding: 100px 80px;
+  padding: 100px 80px 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,7 +11,7 @@
   font-size: 44px;
   line-height: 52px;
   color: #000;
-  margin-bottom: 20px;
+  margin-bottom: 80px;
 }
 
 .reservation__form {
